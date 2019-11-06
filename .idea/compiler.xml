@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-common" />
         <module name="eureka-consumer" />
         <module name="eureka-provider" />
         <module name="eureka-server-cluster" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bank" target="1.8" />
+      <module name="eureka-common" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
       <module name="eureka-provider" target="1.8" />
       <module name="eureka-server-cluster" target="1.8" />
