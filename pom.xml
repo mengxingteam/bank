@@ -34,6 +34,12 @@
   </properties>
 
   <dependencies>
+    <!--添加公共子模块的依赖-->
+    <dependency>
+      <groupId>com.zking</groupId>
+      <artifactId>eureka-common</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
     <!--服务注册与发现-->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
